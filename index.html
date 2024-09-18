@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Concepts Image Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px; /* Adjust according to the maximum size you want */
+            margin: auto;
+        }
+
+        .background {
+            width: 100%;
+            height: auto; /* Ensure the image scales responsively */
+        }
+
+        /* Transparent divs for development - using percentage for responsive design */
+        .clickable-area {
+            position: absolute;
+            border: 2px solid red; /* Visible border for visualization */
+            background-color: rgba(255, 0, 0, 0.2); /* Light transparent color for development */
+        }
+
+        /* Percentage-based positioning for clickable areas */
+        #hohe-avs {
+            top: 16%;   /* 10% from the top of the image */
+            left: 26%;   /* 7% from the left of the image */
+            width: 7%; /* 15% of the image width */
+            height: 4%; /* 10% of the image height */
+        }
+
+        #diagonale-passe {
+            top: 30%;
+            left: 15%;
+            width: 8%;
+            height: 6%;
+        }
+
+        #nicht-ohne-gegnerdruck {
+            top: 37%;
+            left: 21%;
+            width: 13%;
+            height: 8%;
+        }
+
+        #durch-die-ketten-spielen {
+            top: 32%;
+            left: 43%;
+            width: 12%;
+            height: 8%;
+        }
+
+        #raute-um-den-balltrager {
+            top: 50%;
+            left: 40%;
+            width: 10%;
+            height: 8%;
+        }
+        #spiel-ueber-den-dritten{
+            top: 43%;
+            left: 52%;
+            width: 10%;
+            height: 8%;
+        }
+
+        /* Add more divs for the rest of the concepts as needed */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="template.png" alt="Football Concepts" class="background">
+
+        <!-- Transparent divs to visualize clickable areas, now percentage-based -->
+        <div id="hohe-avs" class="clickable-area"></div>
+        <div id="diagonale-passe" class="clickable-area"></div>
+        <div id="nicht-ohne-gegnerdruck" class="clickable-area"></div>
+        <div id="durch-die-ketten-spielen" class="clickable-area"></div>
+        <div id="raute-um-den-balltrager" class="clickable-area"></div>
+        <a href="spiel-ueber-den-dritten.html">
+            <div id="spiel-ueber-den-dritten" class="clickable-area" ></div>
+        </a>
+        <!-- Add more divs as necessary -->
+    </div>
+</body>
+</html>
